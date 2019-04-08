@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Config {
     Scanner scanner=new Scanner(System.in);
 
-    private static String LoginUrl = "http://172.16.1.99/student/public/login.asp";
+    private static String LoginUrl = "http://bkjw2.guet.edu.cn/student/public/login.asp";
     private static String logoutUrl = "";
-    private static String selectUrl = "http://172.16.1.99/student/selectterm.asp";
+    private static String selectUrl = "http://bkjw2.guet.edu.cn/student/selectterm.asp";
     private static String checkNetUrl = "https://www.baidu.com";
     private static String UserAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36";
     private static String Connection = "keep-alive";
